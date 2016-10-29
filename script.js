@@ -1,17 +1,31 @@
 $(document).ready(function() {
-  $('paisajeUno').camera({ 
-	  height: '41%',
-	  pagination: false,
-	  thumbnails: true
+$(".example.stopwatch").TimeCircles({
+    count_past_zero: false,
+    "animation": "smooth",
+    "bg_width": 1.7,
+    "fg_width": 0.05,
+    "circle_bg_color": "#60686F",
+    "time": {
+        "Days": {
+            "text": "Days",
+            "color": "#FFCC66",
+            "show": false
+        },
+        "Hours": {
+            "text": "Hours",
+            "color": "#99CCFF",
+            "show": false
+        },
+        "Minutes": {
+            "text": "Minutes",
+            "color": "#BBFFBB",
+            "show": false
+        },
+        "Seconds": {
+            "text": "Seconds",
+            "color": "#FF9999",
+            "show": true
+        }
+    }
   });
-  $('paisajeDos').camera({ 
-	  height: '41%',
-	  pagination: false,
-	  thumbnails: true
-  });
-  $('paisajeTres').camera({ 
-	  height: '41%',
-	  pagination: false,
-	  thumbnails: true
- });
 });
