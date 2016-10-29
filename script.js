@@ -1,8 +1,8 @@
 $(document).ready(function() {
 $("#DateCountdown").TimeCircles({
     "animation": "smooth",
-    "bg_width": 1.2,
-    "fg_width": 0.06666666666666667,
+    "bg_width": 1.5,
+    "fg_width": 0.11,
     "circle_bg_color": "#60686F",
     "time": {
         "Days": {
@@ -29,8 +29,8 @@ $("#DateCountdown").TimeCircles({
 });
 $("#DateCountdowndos").TimeCircles({
     "animation": "smooth",
-    "bg_width": 2.4,
-    "fg_width": 0.03,
+    "bg_width": 1.5,
+    "fg_width": 0.11,
     "circle_bg_color": "#60686F",
     "time": {
         "Days": {
@@ -57,8 +57,8 @@ $("#DateCountdowndos").TimeCircles({
 });
 $("#DateCountdowntres").TimeCircles({
     "animation": "ticks",
-    "bg_width": 2.7,
-    "fg_width": 0.016666666666666666,
+    "bg_width": 1.5,
+    "fg_width": 0.11,
     "circle_bg_color": "#60686F",
     "time": {
         "Days": {
