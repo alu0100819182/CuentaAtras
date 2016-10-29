@@ -2,3 +2,11 @@ body {
   background-image: url("/prueba/web.jpg");
   background-size: cover;
 }
+
+h2 {
+  color: white;
+}
+
+#DateCountdown {
+  color: white;
+}
