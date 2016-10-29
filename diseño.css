@@ -12,4 +12,5 @@ h1, h2 {
 #DateCountdown, #DateCountdowndos, #DateCountdowntres, #DateCountdowncuatro {
   color: white;
   font-family: 'Coiny', cursive;
+  display: inline-block;
 }
