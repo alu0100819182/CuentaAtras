@@ -1,31 +1,30 @@
 $(document).ready(function() {
-$(".example.stopwatch").TimeCircles({
-    count_past_zero: false,
+$("#DateCountdown").TimeCircles({
     "animation": "smooth",
-    "bg_width": 1.7,
-    "fg_width": 0.05,
+    "bg_width": 1.2,
+    "fg_width": 0.06666666666666667,
     "circle_bg_color": "#60686F",
     "time": {
         "Days": {
             "text": "Days",
-            "color": "#FFCC66",
-            "show": false
+            "color": "#ff6b66",
+            "show": true
         },
         "Hours": {
             "text": "Hours",
-            "color": "#99CCFF",
-            "show": false
+            "color": "#ffcb99",
+            "show": true
         },
         "Minutes": {
             "text": "Minutes",
-            "color": "#BBFFBB",
-            "show": false
+            "color": "#fff5bb",
+            "show": true
         },
         "Seconds": {
             "text": "Seconds",
-            "color": "#FF9999",
+            "color": "#d6ff99",
             "show": true
         }
     }
-  });
+});
 });
