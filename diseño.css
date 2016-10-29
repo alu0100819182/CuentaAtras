@@ -3,10 +3,10 @@ body {
   background-size: cover;
 }
 
-h2 {
+h1, h2 {
   color: white;
 }
 
-#DateCountdown {
+#DateCountdown, #DateCountdowndos, #DateCountdowntres, #DateCountdowncuatro {
   color: white;
 }
