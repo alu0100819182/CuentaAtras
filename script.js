@@ -27,4 +27,32 @@ $("#DateCountdown").TimeCircles({
         }
     }
 });
+$("#DateCountdowndos").TimeCircles({
+    "animation": "smooth",
+    "bg_width": 2.4,
+    "fg_width": 0.03,
+    "circle_bg_color": "#60686F",
+    "time": {
+        "Days": {
+            "text": "Days",
+            "color": "#66ffe1",
+            "show": true
+        },
+        "Hours": {
+            "text": "Hours",
+            "color": "#99aeff",
+            "show": true
+        },
+        "Minutes": {
+            "text": "Minutes",
+            "color": "#fcbbff",
+            "show": true
+        },
+        "Seconds": {
+            "text": "Seconds",
+            "color": "#ff9999",
+            "show": true
+        }
+    }
+});
 });
